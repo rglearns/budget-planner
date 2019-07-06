@@ -38,7 +38,7 @@ export class HomePage implements OnInit {
       alertController.create({
         message: 'Please Enter Valid Reason and amount',
         header: 'Error',
-        buttons:[{
+        buttons: [{
           role: 'cancel',
           text: 'OK'
         }]
